@@ -53,7 +53,7 @@
       <br>
       <br>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+      <form action="" method="post" role="form" class="php-email-form" id="primaryform">
         <p><span class="text-danger">*</span> All fields are marked compulsory</p>
         <div class="row">
           <div class="col-md-6 form-group">
@@ -68,10 +68,10 @@
         </div>
         <div class="row">
           <div class="col-md-6 form-group">
-            <input type="text" name="registration" class="form-control" id="registration" placeholder="Registration Number" required>
+            <input type="text" name="reg_no" class="form-control" id="registration" placeholder="Registration Number" required>
           </div>
           <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="text" class="form-control" name="mrno" id="mrno" placeholder="MR no." required>
+            <input type="text" class="form-control" name="mr_no" id="mrno" placeholder="MR no." required>
           </div>
         </div>
         <div class="form-group mt-3 mb-3">
@@ -127,9 +127,15 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+  <script src="assets/js/jqry.js"></script>
+  
   <script src="assets/js/main.js"></script>
-
+  <script src="assets/js/demo.js"></script>
+<script>
+  /*
+  <div class="error-message d-block">The form action property is not set!</div>
+  */
+</script>
 </body>
 
 </html>
